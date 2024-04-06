@@ -17,7 +17,7 @@ The application uses Goroutines and channels to concurrently read files and proc
 To run the application, execute the following command:
 
 ```sh
-go run main.go
+go run .
 ```
 
 The application reads data from the `data.txt` file, processes the data concurrently, and writes the results to the `result.json` file.
